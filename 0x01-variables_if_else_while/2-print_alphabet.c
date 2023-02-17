@@ -17,16 +17,6 @@ int main(void)
 		putchar(c);
 		c++;
 	}
-
-	char C;
-
-	C = 'A';
-
-	while (C <= 'Z')
-	{
-		putchar(C);
-		C++;
-	}
 	putchar('\n');
 	return (0);
 }
