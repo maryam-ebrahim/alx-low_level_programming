@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>
 
 /**
  * main - A program to assign a random number to a variable
