@@ -8,17 +8,21 @@
 
 int main(void)
 {
-	char c = 'a';
+	char c;
+	char upper;
+
+	c  = 'a';
+	upper = 'A';
 
 	while (c <= 'z')
 	{
 		putchar(c);
 		c++;
 	}
-	while (c <= 'z')
+	while (upper <= 'Z')
 	{
-		putchar(toupper(c));
-		c++;
+		putchar(upper);
+		upper++;
 	}
 	putchar('\n');
 	return (0);
