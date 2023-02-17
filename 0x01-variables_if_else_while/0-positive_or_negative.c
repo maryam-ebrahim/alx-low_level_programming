@@ -5,7 +5,7 @@
 /**
  * main - A program to assign a random number to a variable
  *
- * return: 0 (success)
+ * Return: 0 (success)
  */
 int main(void)
 {
