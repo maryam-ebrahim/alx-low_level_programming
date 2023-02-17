@@ -6,3 +6,4 @@ task 5: prints the alphabet in lowercase except q and e
 task 6: prints all singlr digit numbers of base 10 starting from 0
 task 7: prints all single digit numbers of base 10 starting from 0 without using char
 task 8: prints the alphabet in reverse
+task 9: prints all numbers of base 16 in lowercase
