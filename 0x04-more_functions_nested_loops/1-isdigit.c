@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -9,7 +10,7 @@
 
 int _isdigit(int c)
 {
-	if (c >= 48 && c <= 59)
+	if (c >= 48 && c <= 57)
 	{
 		return (1);
 	}
