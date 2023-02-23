@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - A function that prints the numbers, from 0 to 9
- * @i: the numbers to be printed
+ *
  * Return: 0 (success)
  */
 
