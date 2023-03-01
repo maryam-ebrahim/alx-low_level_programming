@@ -2,14 +2,15 @@
 #include <stdio.h>
 
 /**
- * puts_half - A function that encodes a string into 1337.
- * @str: The string to be encoded
+ * leet - A function that encodes a string into 1337.
+ * @n: The string to be encoded
  * Return: n value.
  */
 
 char *leet(char *n)
 {
 	int i, j;
+
 	char s1[] = "aAeEoOtTlL";
 	char s2[] = "4433007711";
 
