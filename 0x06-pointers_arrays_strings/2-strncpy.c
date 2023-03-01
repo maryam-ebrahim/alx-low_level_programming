@@ -6,7 +6,7 @@
  * @dest: The destination value.
  * @src: The source value.
  * n: The number of bytes to be coppied from src.
- * Return: 0 (success).
+ * Return: A pointer to the resulting string dest.
  */
 
 char *_strncpy(char *dest, char *src, int n)
