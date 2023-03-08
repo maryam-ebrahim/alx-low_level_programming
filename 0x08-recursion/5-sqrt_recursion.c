@@ -22,7 +22,7 @@ int _sqrt(int num, int root)
 	{
 		return (-1);
 	}
-	return (_sqrt(num, root +1));
+	return (_sqrt(num, root + 1));
 }
 
 /**
