@@ -1,7 +1,29 @@
 #include <stdio.h>
 #include "main.h"
 
-int _sqrt(int n, int i);
+int _sqrt(int num, int root);
+
+int _sqrt_recursion(int n);
+
+/**
+ * _sqrt - Calculates natural square root.
+ * @num: Number to calculate the square root.
+ * @root: Iterate number.
+ * Return: The natural square root.
+ */
+
+int _sqrt(int num, int root)
+{
+	if ((root * root) == num)
+	{
+		return (root);
+	}
+	if (root == num / 2)
+	{
+		return (-1);
+	}
+	return (_sqrt(num, root +1));
+}
 
 /**
  * _sqrt_recursion - A function that returns the natural square root of a num.
@@ -11,27 +33,15 @@ int _sqrt(int n, int i);
 
 int _sqrt_recursion(int n)
 {
-	return (_sqrt(n, 1));
-}
+	int root = 0;
 
-/**
- * _sqrt - Calculates natural square root.
- * @n: Number to calculate the square root.
- * @i: Iterate number.
- * Return: The natural square root.
- */
-
-int _sqrt(int n, int i)
-{
-	int sqrt = i * 1;
-
-	if (sqrt > n)
+	if (n < 0)
 	{
 		return (-1);
 	}
-	if (sqrt == n)
+	if (n == 1)
 	{
-		return (i);
+		return (1);
 	}
-	return (_sqrt(n, i + 1));
+	return (_sqrt(n, root));
 }
