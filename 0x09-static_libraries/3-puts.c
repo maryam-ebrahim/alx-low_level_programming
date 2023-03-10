@@ -3,7 +3,6 @@
 
 /**
  * _puts - A function that prints a string
- * @str: the string to be printed
  * Return: 0 (success)
  */
 
